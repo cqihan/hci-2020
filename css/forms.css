@@ -1,0 +1,160 @@
+/* CSS Fonts */
+@font-face {
+	font-family: Poppins-Regular;
+	src: url('../vendor/fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+	font-family: Poppins-Bold;
+	src: url('../vendor/fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+	font-family: Poppins-Medium;
+	src: url('../vendor/fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+
+/*----------------------------------------------------------*/
+
+*
+{
+		margin: 0;
+		padding: 0;
+}	
+body
+{
+        font-family: "Poppins-Medium", sans-serif;
+        background-image: linear-gradient(to right, #18a03a,  #00350c);
+}	
+#nav-bar
+{
+		position: sticky;
+		top: 0;
+		z-index: 10;
+}
+.navbar
+{
+        background-image: linear-gradient(to right, #18a03a,  #00350c);
+        text-decoration: none;
+}
+
+.navbar-brand
+{
+    font: 25px bold Poppins-Medium, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.navigate {
+    font-family: "Poppins-Medium", sans-serif;
+    color: white;
+    display: inline-block;
+    position: right;
+    width: auto;
+    height: 100px;
+    text-decoration: none;
+}
+
+#webIcon
+{
+        margin-left: 20px;
+        margin-top: 5px;
+}	
+
+.navbar-nav li
+{
+		padding: 0 15px;
+		color: #fff;
+		display: table-cell;
+		position: relative;
+}	
+
+h1
+{
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Navbar Hover Animation */
+
+
+
+
+/*------------------------Content area------------------------*/
+
+.wrap-container
+{
+    font: Poppins-Medium, sans-serif;
+    width: 1000px;
+    height: auto;
+    padding: 80px 120px;
+
+    border-radius: 10px; 
+    margin: auto;
+    box-shadow: 5px 5px 3px rgb(61, 61, 61); 
+    background-color: white;
+}
+
+.form-horizontal 
+{  
+    /*display: flex;
+    flex-flow: wrap;
+    align-items: center;*/
+    margin-top: 30px;
+    position: relative;
+    width: 1000px;
+}
+
+.form-horizontal label 
+{
+    font: Poppins-Medium, sans-serif;
+    margin: 0px 10px 5px 0;
+    width: 100%;
+}
+
+.form-horizontal input 
+{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+#formBtn 
+{
+    font-size: 20px;
+    font-family: "Poppins-Medium", sans-serif;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+#formBtn:hover
+{
+    background: #43A047;
+}
+/*
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+*/
